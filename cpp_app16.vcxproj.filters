@@ -10,6 +10,9 @@
     <Filter Include="color">
       <UniqueIdentifier>{ed9e3dfd-54af-46ad-9bd6-ae32564d06d6}</UniqueIdentifier>
     </Filter>
+    <Filter Include="washing_machine">
+      <UniqueIdentifier>{83cea963-f9e8-4291-8969-0b28da910454}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -21,6 +24,9 @@
     <ClCompile Include="color.cpp">
       <Filter>color</Filter>
     </ClCompile>
+    <ClCompile Include="washing_machine.cpp">
+      <Filter>washing_machine</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="brand.h">
@@ -28,6 +34,9 @@
     </ClInclude>
     <ClInclude Include="color.h">
       <Filter>color</Filter>
+    </ClInclude>
+    <ClInclude Include="washing_machine.h">
+      <Filter>washing_machine</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
