@@ -1,2 +1,33 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" />
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="main">
+      <UniqueIdentifier>{3632459d-f7cb-434b-82b8-a6e78c44b61f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="brand">
+      <UniqueIdentifier>{e9ea4e91-0e54-4553-8a39-c9331f24266f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="color">
+      <UniqueIdentifier>{ed9e3dfd-54af-46ad-9bd6-ae32564d06d6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>main</Filter>
+    </ClCompile>
+    <ClCompile Include="brand.cpp">
+      <Filter>brand</Filter>
+    </ClCompile>
+    <ClCompile Include="color.cpp">
+      <Filter>color</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="brand.h">
+      <Filter>brand</Filter>
+    </ClInclude>
+    <ClInclude Include="color.h">
+      <Filter>color</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
