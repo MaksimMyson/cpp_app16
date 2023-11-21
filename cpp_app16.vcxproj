@@ -127,11 +127,13 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="boiler.cpp" />
     <ClCompile Include="brand.cpp" />
     <ClCompile Include="color.cpp" />
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="boiler.h" />
     <ClInclude Include="brand.h" />
     <ClInclude Include="color.h" />
   </ItemGroup>
