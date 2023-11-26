@@ -127,13 +127,13 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="brand.cpp" />
-    <ClCompile Include="color.cpp" />
+    <ClCompile Include="animal.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="zoo.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="brand.h" />
-    <ClInclude Include="color.h" />
+    <ClInclude Include="animal.h" />
+    <ClInclude Include="zoo.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
